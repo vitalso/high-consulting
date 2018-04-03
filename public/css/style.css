@@ -537,7 +537,17 @@ footer {
   .arrow-left {
     left: -10px; }
   .arrow-right {
-    right: -10px; } }
+    right: -10px; }
+  .intro {
+    background: url(../images/background.png) center top no-repeat;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; }
+  .video__wrapper {
+    z-index: 0;
+    background: transparent; }
+  .video__background {
+    display: none; } }
 
 @media screen and (max-width: 320px) {
   .case-description {
