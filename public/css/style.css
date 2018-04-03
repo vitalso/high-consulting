@@ -376,6 +376,10 @@ h2 {
   box-shadow: 0 15px 25px 0 rgba(158, 209, 219, 0.3); }
   .wrap__form form {
     margin-top: 40px; }
+    .wrap__form form input {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none; }
 
 .form__el {
   margin-bottom: 25px; }
@@ -407,7 +411,10 @@ input[type="text"] {
 
 input[type="submit"].primary__btn {
   max-width: 100%;
-  cursor: pointer; }
+  height: 60px;
+  cursor: pointer;
+  -webkit-border-radius: 0;
+  border-radius: 0; }
 
 footer {
   padding: 40px 0; }
@@ -512,4 +519,26 @@ footer {
     max-width: 100px; }
   .video__background, .video__background iframe {
     left: -100%;
-    width: 300%; } }
+    width: 300%; }
+  .primary__btn {
+    font-size: 14px; }
+  .about__us__video {
+    -webkit-transform: translate(0, -40px);
+    -moz-transform: translate(0, -40px);
+    -ms-transform: translate(0, -40px);
+    -o-transform: translate(0, -40px);
+    transform: translate(0, -40px); }
+  .item {
+    max-width: 100%;
+    margin-left: 0px;
+    margin-right: 0px; }
+  .cases-container {
+    padding: 0 50px; }
+  .arrow-left {
+    left: -10px; }
+  .arrow-right {
+    right: -10px; } }
+
+@media screen and (max-width: 320px) {
+  .case-description {
+    top: 30%; } }
